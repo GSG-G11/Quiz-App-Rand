@@ -1,0 +1,55 @@
+body {
+  background-color: rgba(250, 250, 250, 1);
+  font-family: "Libre Baskerville", serif;
+}
+
+.progress-container {
+  width: 3.5%;
+  background-color: rgba(217, 217, 217, 1);
+  padding: 1.5px;
+  text-align: center;
+  border-radius: 100%;
+  margin-left: 100px;
+  box-shadow: 3px 4px 5px rgba(188, 188, 188, 1);
+}
+
+.questuin-container {
+  text-align: center;
+  position: relative;
+  top: -50px;
+}
+.question-img {
+  width: 20%;
+  height: 20%;
+}
+
+.choice-container {
+  text-align: center;
+  background-color: rgba(226, 226, 226, 1);
+  margin-bottom: 10px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+}
+.choice-prefix {
+  padding: 10px 15px;
+}
+
+.choice-text {
+  padding: 10px;
+}
+
+.correct {
+  background-color: rgba(114, 223, 97, 1);
+  color: white;
+}
+
+.incorrect {
+  background-color: rgba(218, 33, 33, 1);
+  color: rgba(44, 44, 44, 1);
+}
